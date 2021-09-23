@@ -142,11 +142,11 @@ function getInformacion(e) {
     if (empleados != null) {
         for (let i = 0; i < empleados.length; i++) {
             let nombre = empleados[i].nombre;
-            let cedula = empleados[i].cedula;
-            let salario = empleados[i].salario;
-            let auxilioTransporte = empleados[i].auxilioTransporte;
+            // let cedula = empleados[i].cedula;
+            // let salario = empleados[i].salario;
+            // let auxilioTransporte = empleados[i].auxilioTransporte;
             let prima = empleados[i].prima;
-            let diasTrabajados = empleados[i].diasTrabajados;
+            // let diasTrabajados = empleados[i].diasTrabajados;
             contador++;
 
             if (prima > alta) {

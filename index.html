@@ -18,13 +18,13 @@
                     <form id="formulario">
                         <div class="mb-3">
                             <label for="formulario" class="form-label">Nombre</label>
-                            <input type="text" id = "nombre" class="form-control" placeholder="Nombre completo">
+                            <input type="text" id = "nombre" class="form-control" placeholder="Nombre completo" required="required">
                         </div>
                         <div class="row align-items-start">
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="text" class="form-label">Cedula</label>
-                                    <input type="number" id = "numeroDocumento" class="form-control" placeholder="Documento de identidad">
+                                    <input type="number" id = "numeroDocumento" class="form-control" placeholder="Documento de identidad" required="required">
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="text" class="form-label">Salario</label>
-                                    <input type="number" id = "salario" class="form-control" placeholder="Salario">
+                                    <input type="number" id = "salario" class="form-control" placeholder="Salario" required="required">
                                 </div>
                             </div>
                         </div>
@@ -40,13 +40,14 @@
                             <div class="col">
                                 <div class="mb-3">
                                     <label for="text" class="form-label">Dias trabajados</label>
-                                    <input type="number" id = "diasTrabajo" class="form-control" placeholder="Dias trabajados">
+                                    <input type="number" id = "diasTrabajo" class="form-control" placeholder="Dias trabajados" required="required">
                                 </div>
                             </div>
                           </div>
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-success">Guardar</button>
                             <button id="opciones"class="btn btn-success" type="button">Mas información</button>
+                            <button id="listado"class="btn btn-success" type="button">Listar empleados</button>
                         </div>
                     </form>
                 </div>
